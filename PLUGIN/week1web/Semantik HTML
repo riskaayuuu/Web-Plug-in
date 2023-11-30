@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Semantik HTML</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>HALOOOO</h1>
+        </header>
+        
+        <nav>
+            <a href="https://dolphinbrain3.blogspot.com/">Home</a>
+        </nav>
+        
+        <section>
+            <h1>Belajar Semantik</h1>
+            <h4>Belajar Semantik</h4>
+
+            <p>Halo guys, saya riska
+                blablabla
+                blublublu.</p>
+        </section>
+        <img src="./inigambar.jpg" alt="">
+    </body>    
+</html>    

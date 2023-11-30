@@ -1,0 +1,133 @@
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navbar{
+        background-color: blue;
+        display:flex;
+        justify-content:center;
+    }
+
+    .navbar a{
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .jumbotron{
+        position: relative;
+        overflow: hidden;
+        height: 500px;
+        
+    }
+
+    .jumbotron img{
+        z-index: -3;
+        position: absolute;
+        width: 100%;
+    }
+
+    .jumbotron h2{
+       width: 700px;
+       padding-top: 50px;
+       font-size: 50px;
+       margin-left: 300px;
+       font-weight: bold;
+       position: relative;
+
+    }
+
+    .jumbotron p{
+        width: 300px;
+        text-align: end;
+        margin-left: 350px;
+
+        
+    }
+
+    .intro{
+        
+        box-shadow: 3px -3px 7px 0px black;
+        margin: 30px 30px 0px 30px;
+        border-radius: 10px;
+        
+    }
+
+    .desc {
+        padding: 10px;
+    }
+
+    intro .img{
+        position:fixed;
+        width: 300px;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    
+
+    intro .ul{
+        width: 500px;
+        text-align:center;
+        position:relative;
+        margin-left: 500px;
+        font-size: 25px;
+        color:black;
+    } 
+
+    .footer{
+        box-shadow: 3px -3px 3px 0px blue;
+        margin: 30px 30px 3px 30px;
+        border-radius: 10px;
+        position: relative;
+        background: rgb(63, 63, 255);
+           
+    }
+     
+    .footer p{
+        width: 500px;
+        text-align:center;
+        font-size: 20px;
+        margin-left: 66vh;
+    }
+    footer .icons,
+    footer .menu{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1opx 0;
+        flex-wrap: wrap;
+    }
+    footer .icons li, 
+    footer .menu li{
+        list-style: none;
+
+    }
+    footer .icons li a,
+    footer .menu li a{
+        font-size: 2em;
+        color: #fff;
+        margin: 10px;
+        display: inline-block;
+        transition: 0,5s;
+    }
+    footer .icons li a:hover{
+        transform: translate(-10px);
+
+    }
+
+    footer .menu li a{
+        font-size: 1,2em;
+        color: #fff;
+        margin: 10px;
+        display: inline-block;
+        transition: 0,5s;
+        text-decoration: none;
+    }
+
+    footer .menu li a:hover{
+     opacity: 1;
+    }

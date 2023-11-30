@@ -1,0 +1,11 @@
+body{
+    background-color:brown;
+}
+h1{
+    font-style: inherit;
+    color:bisque;
+}
+h2{
+    font-style:oblique;
+    color :azure;
+}
